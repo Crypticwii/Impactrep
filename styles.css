@@ -43,6 +43,10 @@
   font-size: 2rem;
 }
 
+.fa-gem{
+  margin-right: 0.5rem;
+}
+
 .navbar__menu{
   display:flex;
   align-items: center;
@@ -125,14 +129,14 @@
   .navbar__menu:active{
     background: #131313;
     top: 100%;
-    opacity: 1;
+    opacity: 0;
     transition: all 0.5s ease;
     z-index: 99;
     height: 50vh;
     font-size: 1.6rem;
   }
 
-  .navbar__logo{
+  #navbar__logo{
     padding-left: 25px;
   }
 
@@ -160,7 +164,6 @@
     top: 20%;
     right: 5%;
     transform: translate(5%, 20%);
-
   }
 
   .navbar__btn{
@@ -191,4 +194,4 @@
 
   #mobile-menu.is-active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
-}
+}}
